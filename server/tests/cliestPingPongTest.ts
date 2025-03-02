@@ -1,5 +1,5 @@
 import { hc } from "hono/client";
-import { Server} from './src/main.ts';
+import { Server} from '../src/main.ts';
 
 const MAX_CLIENTS = 1000;
 const POLLING_PERCENTAGE = 0.05;

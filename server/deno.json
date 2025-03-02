@@ -1,9 +1,11 @@
 {
+  "version": "0.0.1",
   "imports": {
+    "@logger": "jsr:@timepp/enhanced-deno-log@^0.4.1",
     "hono": "jsr:@hono/hono@^4.7.2"
   },
   "tasks": {
-    "start": "deno run --allow-net --allow-ffi --allow-env --allow-read main.ts"
+    "start": "deno run --allow-net --allow-ffi --allow-env --allow-read src/main.ts"
   },
   "compilerOptions": {
     "jsx": "precompile",

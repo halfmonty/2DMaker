@@ -130,3 +130,5 @@ dist
 .pnp.*
 
 server/public
+
+*.pem
