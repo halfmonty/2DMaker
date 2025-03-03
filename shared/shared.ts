@@ -11,7 +11,7 @@ export enum MessageType {
     join="join",
     peer="peer",
 }
-
+let x:RTCSessionDescriptionInit;
 export type UUID = `${string}-${string}-${string}-${string}-${string}`;
 
 export type ClientMessage = {

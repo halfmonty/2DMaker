@@ -61,10 +61,10 @@ const app = new Hono()
                     default: {
                         //console.log("message recieved");
                         console.log(event.data);
-                        if(activeConnections.size<2){
-                            ws.send("no");
-                            return;
-                        }
+                        // if(activeConnections.size<2){
+                        //     ws.send("no");
+                        //     return;
+                        // }
                         activeConnections.forEach(peer => {
                             if (ws.raw && peer != ws.raw) {
                                 console.log(`sending`)
